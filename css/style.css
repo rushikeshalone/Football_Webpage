@@ -1,0 +1,87 @@
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    /* max-width: 100%; */
+    overflow-x: hidden;
+    background-color: rgb(242, 228, 228);
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar-nav .nav-link,
+.nav-item dropdown .navbar-nav .show.nav-link {
+    color: rgb(215, 211, 209) !important;
+    font-size: 200;
+    
+}
+
+
+.nav-item {
+    padding: 9px;
+    font-size: 100%;
+
+}
+
+
+.container {
+    width: 100vw;
+    
+}
+.box {
+    display: flex;
+   
+  }
+  
+  .image-side {
+    border: 20px red;
+    
+    padding-left: 9%;
+    transition: all 0.3s;
+     
+  }
+  .image-side :hover{
+    transform:scale(1.10); 
+  }
+  
+  .text-side {
+    width: 50%;
+    padding: 10px 30px;
+    padding-right:1%;
+  }
+  .containerp{
+    padding-left: 10%;
+    color: rgb(214, 224, 209);
+    background-color: rgb(25, 100, 100);
+  }
+  .a {
+    text-decoration: none;
+  }
+ 
+  .roww{
+    padding-left: 9%;
+    padding-right: 9%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+/* element.style {
+} */
+* ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+i {
+    font-style: italic;
+}
+a {
+    white-space: inherit;
+    color: white;
+ 
+}
+.card{
+  transition: all 0.2s;
+}
+.card:hover{
+  transform:scale(1.15); 
+}
